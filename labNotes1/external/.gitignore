@@ -1,0 +1,13 @@
+.DS_Store
+
+*.txt
+
+*.fa
+*.fasta
+
+venv/
+
+*.pkl
+
+__pycache__/
+checkpoints/
