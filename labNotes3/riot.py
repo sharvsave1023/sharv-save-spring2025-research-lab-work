@@ -1,7 +1,9 @@
-#!/usr/bin/env python3
 import time
 from Bio import SeqIO
 import pandas as pd
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'labNotes2', 'external'))
 from riot_na import Riot
 
 def load_fasta(fasta_file):
